@@ -1,0 +1,160 @@
+body {
+  background-image: url(final.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: rgb(216, 69, 69);
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Bungee Shade', cursive;
+}
+h2 {
+  color: rgb(196, 196, 196);
+  font-size: 30px;
+  font-family: Notable;
+}
+
+.rules-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+}
+
+.rules-paragraph {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Sigmar One', cursive;;
+}
+
+.move-pick-container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: auto;
+  width: auto;
+  gap: 80px;
+  flex-wrap: wrap;
+  flex-shrink: 1;
+}
+.move-picture {
+  height: 140px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.move-picture:hover {
+  height: 160px;
+  cursor: pointer;
+}
+
+
+.result-container {
+  margin-top: 80px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  flex-shrink: 1;
+  font-family: Notable;
+}
+
+.result-text {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.result-score {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.result-text-div {
+border-color: wheat;
+border: solid;
+height: 160px;
+background-color: rgb(33, 36, 36);
+height: auto;
+padding: 15px;
+
+}
+
+.result-score-div {
+  border-color: wheat;
+  border: solid;
+  height: auto;
+  background-color: rgb(24, 23, 23);
+  padding: 15px;
+}
+
+.move-result-picture {
+  height: 100px;
+  width: 100px;
+}
+
+.reset-div {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.reset-paragraph {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Bungee Shade', cursive;
+  color: red;
+  font-weight: bold;
+}
+
+  .reset-button {
+    background-color: transparent;
+    border-radius: 60px;
+    border: none;
+  }
+
+.gameCube-button {
+  height: 80px;
+  width: 80px;
+  background-color: transparent;
+  border-radius: 20px;
+  cursor: pointer;
+  border-radius: 60px;
+}
+
+.gameCube-button:hover {
+  height: 100px;
+  width: 100px;
+  border-radius: 70px;
+}
+
+.footer {
+  background-color: blue;
+  color: white;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 100px;
+}
